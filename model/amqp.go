@@ -1,7 +1,11 @@
 package model
 
 const (
-	AMQPEmailEvent = "email"
+	AMQPEmailEvent             = "email"
+	AMQPProjectEvent           = "project"
+	AMQPWorkspaceEvent         = "workspace"
+	AMQPDeleteByProjectEvent   = "project.delete"
+	AMQPDeleteByWorkspaceEvent = "workspace.delete"
 
 	TwoStepActivatePath = "/account/two-step"
 	ConfirmEmailPath    = "/account/email"
