@@ -24,3 +24,11 @@ type AmqpEmailBody struct {
 	Path     string
 	Type     string
 }
+
+type AmqpDeleteByWorkspaceEvent struct {
+	WorkspaceID string
+}
+
+type AmqpDeleteByProjectEvent struct {
+	ID string
+}
